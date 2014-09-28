@@ -37,7 +37,7 @@ import com.microsoft.windowsazure.mobileservices.RegistrationCallback;
 
 public class ToDoActivity extends Activity {
 	//	public static final String SENDER_ID = "axial-app-716";
-	public static final String SENDER_ID = "787752252309";
+	public static final String SENDER_ID = "477736743302";
 	private GoogleCloudMessaging gcm;
 	private NotificationHub hub;
 	private String regID;
