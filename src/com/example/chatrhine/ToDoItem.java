@@ -10,7 +10,9 @@ public class ToDoItem {
 	 */
 	@com.google.gson.annotations.SerializedName("text")
 	private String mText;
-
+	
+	@com.google.gson.annotations.SerializedName("regID")
+	private String mregID;
 	/**
 	 * Item Id
 	 */
@@ -64,7 +66,10 @@ public class ToDoItem {
 	public final void setText(String text) {
 		mText = text;
 	}
-
+	// Sets the reg ID
+	public final void setRegID(String regID) {
+		mregID = regID;
+	}
 	/**
 	 * Returns the item id
 	 */
